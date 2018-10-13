@@ -70,20 +70,7 @@ registerBlockType( 'lwhhgd/block-1', {
      * @type {block}
      */
     edit: function( props ) {
-        return el(
-            'div',
-            {style: blockStyles},
-            el(
-                'h2',
-                {style: {color: 'white', marginTop: 0}},
-                'Hello World!'
-            ),
-            el(
-                'p',
-                {style: {color: 'white'}},
-                'আমরা করব জয় একদিন, ওহ বুকের গভীরে আছে প্রত্যয়, আমরা করব জয় একদিন।'
-            ),
-        );
+        return el( 'div', {style: blockStyles}, 'Hello World!' );
     },
 
     /**
@@ -92,11 +79,6 @@ registerBlockType( 'lwhhgd/block-1', {
      * @type {block}
      */
     save: function( props ) {
-        return {
-            <div style={blockStyles}>
-                <h2 style={{color: 'white', marginTop: 0}}>Hello World</h2>
-                <p style={{color: 'white'}}>আমরা করব জয় একদিন, ওহ বুকের গভীরে আছে প্রত্যয়, আমরা করব জয় একদিন।</p>
-            </div>
-        };
+        return el( 'div', {style: blockStyles}, 'Hello World!' );
     }
 } );

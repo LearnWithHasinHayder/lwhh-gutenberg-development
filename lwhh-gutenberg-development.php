@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: LWHH Gutenberg Development
-Plugin URI: https://akismet.com/
+Plugin URI: https://github.com/LearnWithHasinHayder/lwhh-gutenberg-development
 Description: Demonstration plugin to learn WordPress gutenberg development with LWHH
 Version: 0.0.1
 Author: LWHH
