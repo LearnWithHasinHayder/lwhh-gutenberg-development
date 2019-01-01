@@ -1,0 +1,18 @@
+{
+    name: 'rounded',
+    label: __('Rounded Outline'),
+    isDefault: true
+},
+{
+    name: 'outline',
+    label: __('Squared Outline')
+}
+
+hasStyle(className) || (className += ` is-style-rounded`);
+
+function hasStyle(className) {
+    return (className && (
+        className.includes('is-style-rounded') ||
+        className.includes('is-style-outline')
+    ));
+}

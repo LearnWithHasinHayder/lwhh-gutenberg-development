@@ -1,0 +1,31 @@
+.editor-styles-wrapper .wp-block-lwhhgd-btn,
+.wp-block .wp-block-lwhhgd-btn,
+.wp-block-lwhhgd-btn {
+    text-decoration: none;
+    line-height: 1;
+    display: inline-block;
+    padding: 1em 2em;
+    border: 1px solid;
+    color: #333;
+}
+
+.editor-styles-wrapper .wp-block-lwhhgd-btn:hover,
+.editor-styles-wrapper .wp-block-lwhhgd-btn:focus,
+.wp-block .wp-block-lwhhgd-btn:hover,
+.wp-block .wp-block-lwhhgd-btn:focus,
+.wp-block-lwhhgd-btn:hover,
+.wp-block-lwhhgd-btn:focus {
+    color: tomato;
+}
+
+.editor-styles-wrapper .wp-block-lwhhgd-btn.is-style-rounded,
+.wp-block .wp-block-lwhhgd-btn.is-style-rounded,
+.wp-block-lwhhgd-btn.is-style-rounded {
+    border-radius: 5em;
+}
+
+.editor-styles-wrapper .wp-block-lwhhgd-btn.is-style-outline,
+.wp-block .wp-block-lwhhgd-btn.is-style-outline,
+.wp-block-lwhhgd-btn.is-style-outline {
+    border-width: 2px;
+}
